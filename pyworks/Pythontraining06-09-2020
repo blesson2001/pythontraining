@@ -1,0 +1,77 @@
+webbrowser fuction
+
+
+Sound recoganication
+
+Voice control:-
+
+In order to connect python with the mic driver we need to use a library.
+
+The libraby have a cabpability.
+
+
+we use the function pyaudio
+
+
+dont directly install
+
+install via canda
+
+
+Coverting th our speech to text is called  speech recoganisation.
+
+
+We need recoganiser for our speech convertor
+
+
+So we need to connect to google recoganizoer
+
+
+We can give nick name for the function.
+
+like 
+
+import subprocess as sp
+
+sp is also called alias
+
+Speech recoganizor will use pyaudio internally
+
+when we enter the function speech_recognition.Microphone
+
+In order to record the audio we use with
+
+with sr.Micrphone() as source:
+     r.listen(source)
+     
+This will store the frequency coming from the microphone will store in source.
+'with' will help to open and closing 
+
+
+
+import speech_recognition as sr
+print("welcome to the tools")
+import webbrowser
+print("enter your requirement:", end='')
+#ch=input()
+r=sr.Recognizer()
+with sr.Microphone() as source:
+    print("start say!!")
+    audio=r.listen(source)
+    print("speech Done")
+ch=r.recognize_google(audio)
+if "date" in ch:
+    print("date")
+    webbrowser.open("http://54.169.27.197/cgi-bin/me.py?c=date")
+elif "calendar" in ch:
+    print("cal")
+    webbrowser.open("http://54.169.27.197/cgi-bin/me.py?c=cal")
+elif "list" in ch:
+    print("ls")
+    webbrowser.open("http://54.169.27.197/cgi-bin/me.py?c=ls")    
+else:
+    print("not understand")
+
+    
+    
+

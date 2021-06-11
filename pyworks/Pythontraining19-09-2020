@@ -1,0 +1,11 @@
+SElinux:-
+
+Powerfull security
+
+Need to disble selinux for running the command through CGI will fail.
+
+sudo
+
+
+All the commnd which run through CGI is using the user apache.
+

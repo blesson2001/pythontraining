@@ -1,0 +1,46 @@
+Docker integration:-
+
+Docker basics
+
+import subprocess
+import os
+cmd="docker container run --name do ubuntu:18.04"
+x=subprocess.getstatusoutput(cmd)
+status=x[0]
+output=x[1]
+print(status)
+
+
+treat valiable inside the double quotes as variable.python always treat the text in  the Double quotes as string
+
+
+print("This is x date")
+
+x must be varible
+
+
+os we use {} inside the double quotes of the print and input command
+
+
+ print("This is {} date".format(x))
+
+We use x property for the string for capturing the value of the variable.
+
+{} --- place holder
+
+format(x) --- this is called interpolation
+
+We can use 2 varible in this way respectively
+
+print("This is {} and {}".format(x,y))
+
+This will take respectivly
+
+
+this box is show like tuple
+
+
+print("This is {0} and{1}".format(x.y))
+
+This process also called interpolation
+

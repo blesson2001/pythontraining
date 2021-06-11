@@ -1,0 +1,64 @@
+For run any of the program
+
+we need to OS command for the application to  open  the  application in  python.
+
+We can open VLC player
+
+os.system("vlc")
+
+IDE ----- Its is the software for the developer
+
+The  code we send to the customer.
+
+We need to create a file with .py extention
+
+import pyttsx3
+import os
+pyttsx3.speak("Welcome to my tools")
+p=input("Enter the program need to run : ")
+os.system(p)
+
+
+Save this in  the file  and run python myapp.py
+
+In python n is specical charactor
+n is also used for new line in order to get the new line we user "\n"
+t is also used for tab function , in order to get that we use "\t"
+
+
+So in order  to print the exact same output we print the r in front of the  code.
+
+Print will always give new line.
+
+we have change print giving new line wont work in python 2.6
+We can  look in to the syntax and  manual of print for that we use 
+help(print)
+For modules
+help(pyttsx3.speak)
+
+
+Python never use curly braces
+
+The block of code ending is identified by python by the space.
+
+This space giving is called intetation.This compelsary
+
+if exp>=2:
+  print("give job")
+  print("card")
+  print("bank")
+else:
+  print("not give a job")
+  print(bye")
+
+  
+In python interpretoralso ask for the intentation.
+We need to give colum after the is expression.
+
+
+The input function always convert  the input  to a string.
+
+In order to convert the string into the number we user int(x)
+
+
+

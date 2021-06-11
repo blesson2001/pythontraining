@@ -1,0 +1,31 @@
+import subprocess
+import os
+
+inpass=input("enter ur password :")
+x=subprocess.getstatusoutput("date")
+status=x[0]
+output=x[1]
+if status==0:
+   print(output)
+else:
+   print("command failure...")
+
+
+we can use inpass for setting the password for the program to exicute
+
+for invisiblity of the password we user getpass funtion
+
+
+
+inpass=getpass.getpass("Enter the password")
+
+For getting the code hidden we use compiling the code. Then it will become binary file. So for protection we compile the code.
+
+We can also convert the code in to binary.
+
+
+This process is called decompiler.
+
+
+Study decompilers
+

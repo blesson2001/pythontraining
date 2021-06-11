@@ -1,0 +1,54 @@
+Must  become a creator
+
+Advanced ----- core (Knowledge)
+What ever we write in  the  "" or '' this will be a string
+
+Datatype
+string
+Sequence of charactor are called a string
+Each charator have a  specific postition
+
+Alt+Enter --------- run  will a perticular cell and launch new line.
+
+We can give list in  n[3:4:5]
+
+Task1:-
+Using  the concept just revert the charator wwhich we enter.
+
+
+We can check the elements in  the  list
+
+"1" in x
+output: True
+
+
+
+"Blesson" in x and "path" in  y
+
+We can  use the like above for  the  and we can use AND and OR   gates for the operations.
+
+"Blesson" in  y or "he" in x
+
+We can use brackets for the above statement.
+
+("Blesson" in  y) or ("he" in x)
+
+
+double tab for  predict the function.
+
+Now we need to change the myapp in  to a life friendly
+
+
+
+Loops:-
+
+In the while loop if the condition is true it will come back for the condition
+It keep on running.Till the condition become false.
+
+i=1
+while i<=10:
+  print("hi")
+  print("hello")
+  
+This is called infinite loop which never stop. This is used in evedry services in the OS.
+

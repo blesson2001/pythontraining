@@ -1,0 +1,81 @@
+Datastructures/Algorithum
+
+Space complexity
+
+Normal text contents in a website index page is called as ---- static webpage
+
+If the page contains a code is called ----- webapp
+
+Python Integration with frondend/html
+
+For input() function will prompt yoyu for the value in terminal
+
+For frondend we need feildstorage() for promting the area in GUI.
+
+Who will give the input?
+
+In backend we are giving the input
+
+frontend clinet are giving input
+
+So client sending data via network via http protocal.
+
+For that we need to create boxes for input the data for the client and get data from the client.
+
+Here comes the chance for input box.
+
+Google search engine using the input box.
+
+
+HTML only help you to create a page.
+
+For view anything display in webpage we need to use html.
+
+
+Create a webpage and provide a input box
+
+HTML
+
+Webserver never run the code in the static webpage
+
+
+We can view entair code via right click the view page source.
+
+Browser will process the symbols
+
+All the browser contains html interpreter.
+
+The data which is type by the client need to send to the server. We cant send it via directly we need to assign the data using a variable name.
+
+So we put it as <input name-'x' type="text" />
+
+
+When we need to store the data we use form 
+
+<form action="https://www.google.com/search" >
+
+We need go the variable to our data and it must comes to the cgi-bin code. For that we need to use the function called feildstorage.
+
+Before that we need to import the module called cgi.
+
+
+#!/bin/python3
+import subprocess
+import cgi
+print("content-type: text/html")
+print()
+
+
+h=cgi.FieldStorage()
+o=h.getvalue("x")
+print(o)
+
+y=subprocess.getoutput(o)
+print(y)
+
+x=5
+print(x)
+print("hello")
+
+
+It is one of the Dynamic webapplication

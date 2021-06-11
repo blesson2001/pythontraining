@@ -1,0 +1,29 @@
+For working in a company we need to know the what technology they want.
+
+So need to work onit.
+
+Flesk:-
+
+This is one of the framework
+
+os<---------program
+
+There is 4 ways to intract OS
+
+1)CLI
+2)WEBUI
+3)GUI
+4)MOBILEUI
+
+
+Curl -I will shows the header
+
+header --- location
+
+print("location: https://www.google.com")
+
+
+http://18.136.210.11/cgi-bin/me.py?c=cal
+
+c=cal ---------- this part is known as query string
+

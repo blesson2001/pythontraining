@@ -1,0 +1,47 @@
+Echo back
+
+Functions differents subprocess and so
+
+os.system("date") ----- The are returning output of command
+subprocess.getoutput("date") --- This function returning the outout
+
+
+subprocess --- we can store the output in any other varibale
+
+When we are able to change any value then it is called is mutable means rw
+when we cant change the value then it is called immutable.
+
+One of the immutable function is called tuple.
+
+for that we use y=(1,2,3)
+
+Tuple will not change the values in the list.
+
+This is a big different between the tuple and list
+
+
+
+we can use inpass for setting the password for the program to exicute
+
+for invisiblity of the password we user getpass funtion
+
+
+
+inpass=getpass.getpass("Enter the password")
+
+For getting the code hidden we use compiling the code. Then it will become binary file. So for protection we compile the code.
+
+We can also convert the code in to binary.
+
+
+This process is called decompiler.
+
+
+Study decompilers
+
+
+Application run on  the server is called deploy.
+
+
+
+

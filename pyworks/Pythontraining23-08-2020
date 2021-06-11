@@ -1,0 +1,101 @@
+We are creating API
+
+we use CGI
+
+Get the example of SSH
+
+Witthout login to one os to another OS we need to execute a command
+
+For running one system to another we need
+
+Networking
+Interface or gateway for enter into the server.
+
+Normally we sent a packet with which we have our code
+
+This door is called common gateway interface.
+
+_----                                        +++++
+-     -                                      +   +
+-     ---------------------------------------+   +
+------                                       +++++
+Windows        Packet                        Linux
+
+
+For once we need to run CGI for that we need webserver software(Apache)
+
+Apache by default enables CGI
+
+Any file in the drectory /var/www/cgi-bin
+It will treated as cgi code.
+
+In var/www/html all user fron protocol http they can view the content
+For execute the content we need to perform as CGI
+
+For runing the program file we need to  copy the files in the directory /var/www/cgi-bin
+
+
+Typically running the code is called deploy the code
+
+If we need to run the code we need to copy the file to /var/www/cgi-bin
+
+For running the file we need to change the URL ip/cgi-bin/hello.py
+
+There will be 3 type of issues:
+
+The file not executable
+Internally webserver is running the program. The webserver defaultly dont know which language the program is written.
+
+#! this symbol we say which language the file is written.
+
+
+1
+Copy file to cgi-bin
+2
+chmod +x file.py
+3
+#!/user/bin/python3
+
+
+The webserver confuse which type of condent is coming. video or audio So we need to provide what will be the output
+This is the need of presentation layer in OSI model
+
+
+If we want the output in the way in html we need to provide the which format we want
+
+content-type:text/html
+This must be provide in the python code.
+
+The file we need
+print("content-type: text/html")
+print()
+
+The browser will first as which is the content type which is reserved to the browser for asking which is the content-type.
+
+This first line is called header
+
+The delimiter for the header is a gap between the space of the content type and the code
+We need to use 
+print()
+
+
+
+It basically tell the webserver the that we dont need to see the content of the code. We just want to get the output the code.
+Output ------------ body part
+Differentiator we need to give new line
+header ----------- header part
+
+Client not able to run the code manually
+Client only get the data which is in output.
+
+
+So by a URL we give the client a facility to intract with the server.To do something in the server without can having login to the system. This is called API or Application Programming interface.
+
+
+
+https://www.google.com/search?sxsrf=ALeKk03yj0Tb_vjVlM6P9VAGnDRc4g2QAg%3A1598204459949&source=hp&ei=K6pCX7zLN_W1mgel_JLYBA&q=linux&oq=linux&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIECCMQJzIECCMQJzIICAAQsQMQkQIyCAgAELEDEJECMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQM6BQgAEJECOgUILhCxAzoICC4QsQMQgwE6AgguOgsILhCxAxDHARCjAjoKCAAQsQMQFBCHAjoCCABQxxBYohdgzhhoAHAAeACAAaEBiAHKBZIBAzAuNZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwj8jPLI77HrAhX1muYKHSW-BEsQ4dUDCAc&uact=5
+
+
+Here search is the program they hide the extantion.
+CGI is the way which the client coming to run the command.
+
